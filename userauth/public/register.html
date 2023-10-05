@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="stylesheet" href="register.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet"
+    />  
+
+    <title>Midnight Mist | Login_Page</title>
+  </head>
+
+  <script src="background.js"> </script>
+  <script src="auth.js"> </script>
+  <script src="server.js"> </script>
+
+
+  <body>
+    <div class="background-overlay">
+      <div id="container">
+        <div class="logo-container">
+          <img src="img/behold-logo.png" alt="Img"/>
+        </div>
+  
+        <div class="panel-container">
+          <div class="panel">
+            <h1 class="panel_h1">Create an Account</h1>
+  
+            <p class="text-i">If you already have an account, <a href="/login">Sign-in here</a></p>
+  
+  
+            <form action="/register" method="post" onsubmit="alert('Success')">
+              <div class="input">
+                <label for="email-address">Email Address / Username</label>
+                <input type="email" name="email" required id="email-address" />
+  
+                <div class="input_indicator"></div>
+              </div>
+              
+              <div class="name">
+                <div class="input">
+  
+                  <label for="firstName">First Name</label>
+                  <input type="text" name="name" id="name" />  
+                  
+                  <div class="input_indicator"></div>
+  
+                </div>
+    
+                <div class="input">
+    
+                  <label for="lastName">Last Name</label>
+                  <input type="text" required id="name" />
+                 
+                  <div class="input_indicator"></div>
+  
+                </div>
+              </div>
+              
+              
+  
+              <div class="input">
+             
+                <label for="password">Password</label>
+                <input type="password" name="password" required id="password" />
+  
+  
+                <div class="input_indicator"></div>
+              </div>
+  
+              
+  
+              <h6 class="dob_h">Date of Birth</h6>              
+                
+              <div class="dob_input">
+                <div class="dropdown">
+                  <label for="month">Month</label>
+                    <select name="month" id="month">
+                      <option value="january">January</option>
+                      <option value="feburary">Feburary</option>
+                      <option value="march">March</option>
+                      <option value="april">April</option>
+                      <option value="may">May</option>
+                      <option value="june">June</option>
+                      <option value="july">July</option>
+                      <option value="august">August</option>
+                      <option value="september">September</option>
+                      <option value="october">October</option>
+                      <option value="november">November</option>
+                      <option value="december">December</option>
+                    </select>
+                  <div class="input">
+                   <label for="day">Day</label>
+                    <input type="number" required id="day" min="1" max="31">
+  
+                    <div class="input_indicator"></div>
+                  </div>
+      
+                  <div class="input">
+                   <label for="year">Year</label>
+                   <input type="number" required id="year" min="1900" max="2023">
+  
+                   <div class="input_indicator"></div>
+                  </div>
+  
+  
+                </div>
+              </div>
+  
+              <p class="disclaimer">We honestly promise to sell your info only to the highest bidder, so cheer up! Read and accept our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a> here. </p>
+              <div class="btn-container">
+                <button id="login" type="submit">Create Account</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>       
+    </div>
+  </body>
+</html
