@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./icons/_haritz.svg">
+    <link rel="stylesheet" href="home.css">
+    <title>Dracarys - Choose Difficulty</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="game">
+                <div class="letters" data-letter="D">D</div>
+                <div class="letters" data-letter="R">R</div>
+                <div class="letters" data-letter="A">A</div>
+                <div class="letters" data-letter="C">C</div>
+                <div class="letters" data-letter="A">A</div>
+                <div class="letters" data-letter="R">R</div>
+                <div class="letters" data-letter="Y">Y</div>
+                <div class="letters" data-letter="S">S</div>
+
+                <form action="/logout" method="get">
+                 <button class="nav-btn" type="submit">Logout</button>   
+                </form>
+                
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="state">
+            <p class="info">Select Difficulty</p>
+        </div>
+        <section class="see">
+            <div class="difficulty-option" id="easy">Easy</div>
+            <div class="difficulty-option" id="medium">Medium</div>
+            <div class="difficulty-option" id="difficult">Difficult</div>
+        </section>
+         <audio id="backgroundMusic" src="./audio/Ramin-Djawadi-The-Winds-of-Winter.mp3" loop></audio>
+         <audio id ="selectSound" src="./audio/interface.mp3"> </audio>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

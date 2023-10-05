@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+body {
+    
+    background-color: #333;
+    height: 100vh;
+    min-height: 100dvh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #ccc;
+} */
+
+body {
+    background-color: black;
+    font-family: Noto sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.game, .letters {
+    background-color: dimgray;
+    color: var(--white);
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 700;
+    font-weight: 900;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.state {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 4px;
+    padding: 4rem;
+    align-items: center;
+    text-align: center;
+}
+
+.see {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding-left: 17em;
+    max-width: 70%;
+    gap: 2rem;
+    align-items: center;
+    justify-items: right;
+}
+
+.nav-btn {
+    font-family: inherit;
+    background-color: black;
+    color: white;
+    border-radius: .8rem;
+    border: 3px solid gray;
+    margin-left: 6rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-btn:hover {
+    font-family: inherit;
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+    font-size: 700;
+}
+.difficulty-option {
+    background-color: black;
+    padding: 1rem 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: .25em solid grey;
+    cursor: pointer;
+    transition: .3s;
+}
+.difficulty-option:hover {
+    color: black;
+    background-color: grey;
+}
+
+
