@@ -26,6 +26,6 @@ This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE
 
 ## Acknowledgments
 
-- [https://learntime.net was of really great help when I got stuck and was empty of ideas.]
+- [https://learntime.net was of really great help when I got stuck at some point and was empty of ideas.]
   
 
